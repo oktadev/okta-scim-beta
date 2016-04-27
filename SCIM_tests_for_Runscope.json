@@ -114,9 +114,9 @@
           "source": "response_status"
         }, 
         {
-          "comparison": "not_empty", 
-          "property": "Resources", 
-          "value": null, 
+          "comparison": "does_not_contain", 
+          "property": "", 
+          "value": "Resources", 
           "source": "response_json"
         }, 
         {
