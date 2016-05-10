@@ -1028,6 +1028,7 @@ only happen if the User table isn't defined.
 | Error Response Schema | [Section 3.9](http://www.simplecloud.info/specs/draft-scim-api-01.html#anchor6) | [Section 3.12](https://tools.ietf.org/html/rfc7644#section-3.12) | |
 | Reference Type | N/A | Supports ref type pointing to the full url of another SCIM Resource | |
 | Query by POST /search | N/A | [Section 3.4.3](https://tools.ietf.org/html/rfc7644#section-3.4.3) | |  
+| Media Type | [Section 3.6](http://www.simplecloud.info/specs/draft-scim-api-01.html#io-format): Accept: application/json | [Section 8.1](https://tools.ietf.org/html/rfc7644#section-8.1): Accept: application/scim+json | |
 
 * What if the SCIM 1.1 spec isn't clear on a specific use case or scenario?   
 
