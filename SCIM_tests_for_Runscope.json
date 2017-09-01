@@ -137,7 +137,7 @@
       "before_scripts": []
     }, 
     {
-      "url": "http://api.randomuser.me?nat=us,dk,fr,gb", 
+      "url": "https://api.randomuser.me?nat=us,dk,fr,gb",
       "variables": [
         {
           "source": "response_json", 
