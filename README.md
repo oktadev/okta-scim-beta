@@ -907,6 +907,10 @@ the "Deploy to Heroku" button below:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+Once deployed ensure you initiate the database using the following command:
+        
+        curl -X POST https://<yourdeploymentname>.herokuapp.com/db 
+
 ## How to run
 
 This example code was written for **Python 2.7** and does not
