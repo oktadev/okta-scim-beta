@@ -9,7 +9,6 @@ Werkzeug>=0.11.4
 itsdangerous>=0.24
 python-engineio>=0.8.8
 python-socketio>=1.0
-six>=1.10.0
-wsgiref>=0.1.2
-psycopg2
+psycopg2-binary
 eventlet
+py-xid
